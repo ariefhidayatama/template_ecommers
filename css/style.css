@@ -1,0 +1,182 @@
+/*
+* Theme name: My Store;
+* Theme version: 1.0;
+* Theme author: Arief Hidayat;
+*/
+
+/*CUSTOM COLOR PLACEHOLDER
+*/
+::-webkit-input-placeholder {
+	color: #999;
+}
+::-moz-placeholder {
+	color: #999;
+}
+::-moz-placeholder {
+	color: #999;
+}
+::-ms-input-placeholder {
+	color: #999;
+}
+/*CUSTOM COLOR PLACEHOLDER
+*/
+
+.small-navbar {
+	background-color: #202020;
+	padding: 10px;
+}
+	.small-navbar .sn-left a {
+		color: white;
+		font-size: 8pt;
+		margin-top: -15px;
+	}
+
+	.small-navbar .sn-left a:hover {
+		color: #d44739;
+		background: none;
+	}
+
+	.small-navbar .sn-left a:focus {
+		color: #d44739;
+		background: none;
+	}
+
+	.small-navbar .sn-left li {
+		border-right: 1px solid white;
+		height: 20px;
+	}
+
+	.small-navbar .sn-right .dropdown-toggle  {
+		color: white;
+		font-size: 8pt;
+		display: inline;
+	}
+
+	.small-navbar .sn-right .dropdown-toggle:hover {
+		color: #d44739;
+		background: none;
+	}
+
+	.small-navbar .sn-right .dropdown-toggle:focus {
+		color: #d44739;
+		background: none;
+	}
+
+.big-navbar {
+	background: #e74c3c;
+	padding: 15px;
+	border-radius:0;
+	border: 0;
+}
+	
+	.big-navbar .navbar-left li a {
+		color: white;
+	}
+
+	.big-navbar .navbar-left li a:nth-child(1) {
+		margin-left: -18px;
+		margin-right: 15px;
+	}
+
+	.big-navbar .bn-search {
+		background: none;
+		border: 1px solid white;
+		border-right: 0;
+		border-radius: 3px 0 0 3px;
+		color: white;
+	}
+
+	.big-navbar .bn-search::-webkit-input-placeholder {
+		color: white;
+	}
+
+	.big-navbar .btn-search {
+		background: none;
+		border: 1px solid white;
+		border-radius: 0 3px 3px 0;
+		border-left: 0;
+		color: white;
+		margin-left: -3px;
+	}
+
+	.big-navbar .btn-cart {
+		border: 1px solid white;
+		border-radius: 3px;
+		color: white;
+	}
+
+
+.homepage-slider {
+	margin-top: -20px;
+}
+
+	.homepage-slider .carousel-control {
+		box-shadow: 0;
+		background: #e74c3c;
+		opacity: 1;
+		height: 101px;
+		width: 50px;
+		top: 35%;
+	}
+
+.features-homepage {
+	margin-top: -100px;
+}
+
+	.features-homepage .fh-item:nth-child(2),.fh-item:nth-child(3),.fh-item:nth-child(4) {
+		border-left: 1px solid #3b3b3b;
+	}
+
+	.features-homepage .fh-item {
+		color: white;
+	}
+
+	.features-homepage .fh-item h6 {
+		font-size: 8pt;
+	}
+
+	.fh-item {
+		background: #202020;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.fhi-icon {
+		margin-right: 10px;
+	}
+
+/*CSS RESPONSIVE*/
+
+@media screen and (max-width: 414px) {
+
+/*	body {
+		background-color: blue;
+	}*/
+
+	.big-navbar .navbar-left li {
+		margin-left: 10px;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		color: white;
+	}
+
+	.big-navbar .bn-search {
+		width: 314px;
+		float: left;
+		margin-top: 5px;
+	}
+
+	.btn-cart {
+		width: 100%;
+	}
+
+	.navbar-default .navbar-toggle .icon-bar {
+		background: white;
+	}
+
+	.features-homepage {
+		margin-top: 50px;
+	}
+
+}
